@@ -1,0 +1,71 @@
+/*стиь для тега body*/
+body {
+    font-family: sans-serif;
+}
+
+
+/*убирает нижнее подчеркивание во всех  ссылках, здесь идет обращение по тегу*/
+a{
+    text-decoration: none;
+}
+
+/*для меню*/
+.nav_link {
+    color:cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*для h1*/
+.title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+/*для p*/
+.text {
+    font-style: normal;
+    font-weight: 300;
+    color: #7D7987;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*для h2*/
+.subtitle{
+    font-style: normal;
+    font-weight: 700;
+    color: coral;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+/*закругление у картинки*/
+.about_photo{
+    border-radius: 10px; 
+}
+
+/*стиль поля ввода */
+.form_input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+/*стиль кнопки*/
+.form_button{
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10 px;
+
+}
+
